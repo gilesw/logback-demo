@@ -31,6 +31,7 @@ public class UserServletFilter implements Filter {
 
     HttpSession session = req.getSession();
     MDC.put("sessionId", session.getId());
+    MDC.put("example", "testmc");
     updateMDCValues(session);
 
     try {

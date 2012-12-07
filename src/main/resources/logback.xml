@@ -38,11 +38,16 @@
         <useThreadName>true</useThreadName>
         <graylog2ServerVersion>0.9.6</graylog2ServerVersion>
         <chunkThreshold>1000</chunkThreshold>
-	<messagePattern>%message %relative %exception %mdc{User}</messagePattern>
+	<messagePattern>%message %relative %exception </messagePattern>
         <additionalField>ipAddress:_ip_address</additionalField>
         <additionalField>requestId:_request_id</additionalField>
-        <additionalField>User:_user_id</additionalField>
-  </appender>
+	<additionalField>username:_user_id</additionalField>
+	<additionalField>userid:_userid</additionalField>
+	<additionalField>email:_email</additionalField>
+	<additionalField>sessionID:_session_id</additionalField>
+	<additionalField>example:_notrelated</additionalField>
+	number
+</appender>
 
   <appender name="CYCLIC" class="ch.qos.logback.core.read.CyclicBufferAppender">
   	<MaxSize>512</MaxSize>
