@@ -60,6 +60,12 @@
       <version>2.4.3</version>
     </dependency>
 
+    <dependency>
+      <groupId>me.moocar</groupId>
+      <artifactId>logback-gelf</artifactId>
+      <version>0.9.6p2</version>
+    </dependency>
+
   </dependencies>
 
   <build>
