@@ -45,7 +45,7 @@
 	<additionalField>userid:_userid</additionalField>
 	<additionalField>email:_email</additionalField>
 	<additionalField>sessionID:_session_id</additionalField>
-	<additionalField>example:_notrelated</additionalField>
+	<additionalField>example:_nameingelf</additionalField>
 	number
 </appender>
 
